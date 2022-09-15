@@ -1,0 +1,132 @@
+
+
+/*--------- Підключення шрифтів ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body{
+	
+	font-family: "Larsseit";
+}
+
+
+.title{
+	font-family: "Lato";
+}
+
+
+* {font-family: "Lato";
+	font-weight: 700;
+	color: #e799ff;
+}
+
+img {
+	max-width: 20%;
+}
+
+a{
+	color: #6e028e; 
+}
+
+.maintext *{
+	color: aqua;
+	}
+
+	p.head{
+		color:rgb(10, 148, 102);
+	}
+
+h3{font-family: "Larsseit";
+	font-weight: 700;
+	color: rgb(69, 62, 112);
+}
+
+.head.lila{
+	 color: red; 
+}
+
+#first{
+	font-family: "Larsseit";
+	font-weight: 400;
+	color: rgb(129, 27, 86); 
+}
+
+
+li.list{
+ color: blue;
+}
+
+.lessons.text {
+	 color: green; 
+}
+
+
+.h2{font-family: "Larsseit";
+	font-weight: 500;
+	 color: rgb(55, 90, 131); 
+}
+
+.meta,
+.online{
+	color: rgb(76, 97, 43);
+}
+
+
+.text p{
+	 color: black; 
+}
+
+.text li{
+	color: rgb(138, 111, 111); 
+}
+
+.online .school {
+color: blue;
+}
+
+
+.head > p {
+	color: rgba(255, 0, 242, 0.644); 
+}
+
+p.maintext{
+	color: rgb(43, 16, 61);
+}
+.instrument ~ li{
+	 color: rgb(24, 104, 48); 
+}
+
+.list2 + li {
+	color: rgb(0, 81, 255);
+}
+
+
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+
+
+/* -------- CSS-властивості тексту ------------ */
+
